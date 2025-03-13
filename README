@@ -1,0 +1,15 @@
+Hotel Management Application
+Overview
+Welcome to the Hotel Management Application, a robust system built using Spring Boot that streamlines the management of hotel operations. This application leverages the power of Spring's ecosystem, integrating third-party APIs to enhance functionality and user experience.
+
+Features
+User Authentication and Authorization: This application utilizes Spring Security to implement secure user authentication and role-based access control. By employing JSON Web Tokens (JWT), we ensure that all communications between the client and server are secure and tamper-proof.
+RESTful APIs: Developed with Spring Web, the application exposes a set of RESTful APIs, allowing seamless integration with front-end applications and third-party services. These APIs provide functionalities for managing rooms, reservations, and customer information.
+Third-Party API Integration: The application connects to various third-party APIs for enhanced capabilities, such as external payment processing and booking management. This allows for real-time availability checks and dynamic pricing strategies.
+Spring Boot: Utilizing Spring Boot's powerful features, we have been able to develop a scalable and maintainable application architecture. The embedded server and auto-configuration capabilities speed up the development process and streamline deployment.
+Technologies Used
+Spring Boot: Framework for building production-ready applications efficiently.
+Spring Web: To handle HTTP requests and build RESTful services.
+Spring Security: For authentication and authorization, ensuring secure access to resources.
+JWT: To provide a token-based authentication mechanism.
+Maven: As a build tool for managing project dependencies and plugins.
