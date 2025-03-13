@@ -1,10 +1,12 @@
-import { NavbarUI } from "./components"
+import Card from "./components/card/Card";
+
 function App() {
   return (
-    <>
-     <NavbarUI/>
-    </>
+    <div>
+      <Card/>
+      <button></button>
+    </div>
   )
 }
 
-export default App
+export default App;
